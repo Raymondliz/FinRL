@@ -31,7 +31,7 @@ alpaca-trade-api = "^3"
 ccxt = "^3"
 exchange-calendars = "^4"
 jqdatasdk = "^1"
-pyfolio = "^0.9"
+pyfolio-reloaded = "^0.9"
 pyportfolioopt = "^1"
 ray = {extras=["default", "tune"], version = "^2"}
 scikit-learn = "^1"
