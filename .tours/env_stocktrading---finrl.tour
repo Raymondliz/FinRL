@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "env_stocktrading - FinRL",
+  "steps": [
+    {
+      "file": "finrl/meta/env_stock_trading/env_stocktrading.py",
+      "description": "More options than Meta/China_A_shares to record initial shares",
+      "line": 30
+    },
+    {
+      "file": "finrl/meta/env_stock_trading/env_stocktrading.py",
+      "description": "New option",
+      "line": 38
+    },
+    {
+      "file": "finrl/meta/env_stock_trading/env_stocktrading.py",
+      "description": "This doesn't make any sense. First `index` represents a certain stock. if we add `2*stock_dim+1`, it will fall into technical indicator area.\nOR this just verifies if technical indicator area is Null? if so len of indicator should be added as well.",
+      "line": 105
+    }
+  ],
+  "ref": "work_branch"
+}
